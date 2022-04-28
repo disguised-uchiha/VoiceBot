@@ -1,0 +1,25 @@
+.outerPaper {
+  width: 80vw;
+  height: 85vh;
+  max-width: 500px;
+  max-height: 800px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  /* background-color: aquamarine; */
+}
+.innerPaper {
+  width: calc(100% - 20px);
+  margin: 10px;
+  overflow-y: scroll;
+  height: calc(100% - 80px);
+  scrollbar-width: thin;
+}
+.closeButton {
+  margin: 1%;
+  align-self: flex-end;
+  padding: 2%;
+  font-size: 3rem;
+  cursor: pointer;
+}

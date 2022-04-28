@@ -1,0 +1,25 @@
+#popOver {
+  transform: translate(68%, 10%);
+}
+.chatIcon {
+  position: absolute !important;
+  bottom: 1%;
+  right: 1%;
+  padding: 1% !important;
+}
+::-webkit-scrollbar {
+  width: 1px;
+}
+::-webkit-scrollbar-track {
+  /* Track */
+  background: #191923;
+}
+::-webkit-scrollbar-thumb {
+  /* Handle */
+  background: #35353b;
+  border-radius: 8px;
+}
+::-webkit-scrollbar-thumb:hover {
+  /* Handle on hover */
+  background: #b9b9b9;
+}
